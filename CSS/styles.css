@@ -1,0 +1,3 @@
+* {
+    box-sizing: border-box; /*Para utilizar el grid-view, el padding y border de los elementos tienen que estar incluidos dentro del mismo. */
+}

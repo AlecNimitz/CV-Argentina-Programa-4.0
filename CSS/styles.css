@@ -10,6 +10,12 @@ hr {
     height: 1px;
 }
 
+.hrderecha {
+    background-color: rgba(114, 107, 107, 0.885);
+    border-width: 0px;
+    height: 1px;
+}
+
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -100,7 +106,7 @@ h1 {
 }
 
 .encabezadosderecha {
-    padding-top: 10px;
+    padding-top: 15px;
     letter-spacing: 3px;
 }
 
@@ -113,7 +119,7 @@ h1 {
 
 .exptrabajo {
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 12px;
     margin: 0px;
 }
 
@@ -121,7 +127,7 @@ h1 {
     font-weight: lighter;
     font-size: 13px;
     font-style: italic;
-    padding-top: 2px;
+    padding-top: 3px;
     margin: 0px;
 }
 
@@ -131,4 +137,26 @@ h1 {
     font-size: 16px;
     padding-top: 4px;
     margin: 0px;
+}
+
+.referenciasdiv {
+    background-color: rgba(79, 230, 230, 0.349);
+    padding: 10px;
+    text-align: center;
+    color: #848080;
+}
+
+.preftitulo {
+    padding: 10px 10px;
+    margin: 0px;
+    text-align:center;
+}
+
+.prefdatos {
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+    text-align:center;
 }

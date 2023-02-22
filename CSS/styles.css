@@ -1,3 +1,96 @@
 * {
     box-sizing: border-box; /*Para utilizar el grid-view, el padding y border de los elementos tienen que estar incluidos dentro del mismo. */
+    font-family: 'Kulim Park', sans-serif;
+    text-align: left;
+}
+
+hr {
+    background-color: #ffffff;
+    border-width: 0px;
+    height: 1px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+ul {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+/*COLUMNA IZQUIERDA*/
+.columnaizquierda {
+    background-color: rgba(114, 107, 107, 0.885);
+}
+
+#imagendeperfil {
+    border: 5px solid #ffffff;
+    display: block;
+    margin:auto;
+    padding: 5px;
+    border-radius: 50%;
+}
+.divsizquierda {
+    color: #ffffff;
+    padding: 8px 15px;
+}
+/*
+.degree {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+*/
+.universidad {
+    color: rgb(201, 207, 212);
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: initial;
+    font-size: 15px;
+}
+
+
+
+
+/*COLUMNA DERECHA*/
+h1 {
+    text-align: center;
+}
+#nombreycarrera {
+    font-size: 20px;
+    padding: 4.7%;
+    background-color:rgba(50, 215, 215, 0.618) ;
+    color: rgba(114, 107, 107, 0.885);
+    text-align: center;
 }

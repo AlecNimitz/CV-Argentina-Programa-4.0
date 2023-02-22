@@ -32,6 +32,7 @@ p {
     font-weight: bold;
     font-size: 19px;
     margin-bottom: 0px;
+    color: rgba(114, 107, 107, 0.885);
 }
 
 .col-1 {width: 8.33%;}
@@ -65,15 +66,16 @@ p {
     color: #ffffff;
     padding: 8px 15px;
 }
-/*
+
 .degree {
+    color: #ffffff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 0px;
 }
-*/
+
 .universidad {
-    color: rgb(201, 207, 212);
+    color: rgb(218, 221, 224);
     margin-top: 0px;
     font-style: italic;
     font-weight: initial;
@@ -84,13 +86,49 @@ p {
 
 
 /*COLUMNA DERECHA*/
+
 h1 {
     text-align: center;
 }
+
 #nombreycarrera {
     font-size: 20px;
     padding: 4.7%;
     background-color:rgba(50, 215, 215, 0.618) ;
     color: rgba(114, 107, 107, 0.885);
     text-align: center;
+}
+
+.encabezadosderecha {
+    padding-top: 10px;
+    letter-spacing: 3px;
+}
+
+#aboutmecontent {
+    padding: 10px 5px; 
+    background-color: rgba(79, 230, 230, 0.349);
+    text-indent: 35px;
+    word-spacing: 10px;
+}
+
+.exptrabajo {
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.datostrabajo {
+    font-weight: lighter;
+    font-size: 13px;
+    font-style: italic;
+    padding-top: 2px;
+    margin: 0px;
+}
+
+.labortrabajo {
+    color: black;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-top: 4px;
+    margin: 0px;
 }

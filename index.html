@@ -23,6 +23,9 @@
 <!--Columna izquierda-->
     <div class="col-5">
         <section class="columnaizquierda">
+            <button type="button" id="modoOscuro"><i class="fa-solid fa-moon"></i></button>
+            <button type="button" id="modoClaro"><i class="fa-solid fa-sun"></i></button>
+    
             <img id="imagendeperfil" src="https://randomuser.me/api/portraits/women/12.jpg" alt="Imagen de perfil">
 
             <div class="divsizquierda">AREAS DE EXPERTICIA
@@ -37,7 +40,7 @@
                 <hr>
                 <p class="degree">B.S. Web Development</p>
                 <p class="universidad">California State University | 2013</p>
-                <p class="degree">A.A. Programing</p>
+                <p class="degree">A.A. Programming</p>
                 <p class="universidad">Fullerton College | 2010</p>
                 <p class="degree">Certified Java Programmer</p>
                 <p class="universidad">Univesidad | Años</p>
@@ -65,29 +68,46 @@
                 <hr>
                 <ul class="ulizquierda">
                     <li><i class="fa-solid fa-location-dot"></i> Calle 123 | Mendoza Ciudad</li>
-                    <li><i class="fa-solid fa-phone"></i> 895 555 555</li>
+        
+                    <li>
+                        <i class="fa-solid fa-phone"></i> 
+                        <span id="telefono">895555555</span>
+                                <div class="tooltip">
+                                    <button onclick="copiar()" onmouseout="outFunc()">
+                                        <span class="tooltiptext" id="myTooltip">Copiar al portapapeles</span>
+                                                <i class="fa-solid fa-copy"></i>
+                                    </button>
+                                </div>
+                    </li>            
+
                     <li><i class="fa-solid fa-envelope-open"></i> youremail@gmail.com</li>
                     <li><i class="fa-brands fa-linkedin-in"></i> linkeding.com/in/yourprofile</li>
                     <li><i class="fa-brands fa-facebook-f"></i> facebook/you</li>
                     <li><i class="fa-brands fa-twitter"></i> twitter/you</li>
+                    
+                    
                 </ul>
             </div>   
 
         </section>
     </div>
 
+
+
 <!--columna derecha-->
 
 <div class="col-7">
     <div id="nombreycarrera">
+        <a href="" target="_blank" download="w3logo">
         <button class="btn" id="descargarcv"><i class="fa-solid fa-download"></i></button>
+        </a>
         <h1>Kay Taylor</h1>
         <hr>
         Web Developer
     </div>
         <div  class="encabezadosderecha">SOBRE MI:</div>
         <hr class="hrderecha">
-        <div id="aboutmecontent">Desarrollador web con más de 9 años de experiencia en diseño y desarrollo de interfaces de usuario, testing, debugging y capacitación de personal en tecnologías de eCommerce con capacidad comprobada en la optimización de la funcionalidad web que mejora la recuperación de datos y la eficiencia del flujo de trabajo.
+        <div id="aboutmecontent">Desarrolladora web con más de 9 años de experiencia en diseño y desarrollo de interfaces de usuario, testing, debugging y capacitación de personal en tecnologías de eCommerce con capacidad comprobada en la optimización de la funcionalidad web que mejora la recuperación de datos y la eficiencia del flujo de trabajo.
             "</div>                
         <div  class="encabezadosderecha">EXPERIENCIA</div>
                 <hr class="hrderecha">
@@ -127,9 +147,32 @@
                 <p class="prefdatos"> Correo@mail.com</p>
             </div>
         </div>
+        <div class="col-6">
+            <div class="referenciasdiv">
+                
+                <i class="fa-regular fa-user fa-2x"></i>
+                <br>
+                <p class="preftitulo"> Nombre Apellido</p>
+                <p class="prefdatos"> Posicion Laboral</p>
+                <p class="prefdatos"> Nro Telefonico</p>
+                <p class="prefdatos"> Correo@mail.com</p>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="referenciasdiv">
+                <i class="fa-regular fa-user fa-2x"></i>
+                <br>
+                <p class="preftitulo"> Nombre Apellido</p>
+                <p class="prefdatos"> Posicion Laboral</p>
+                <p class="prefdatos"> Nro Telefonico</p>
+                <p class="prefdatos"> Correo@mail.com</p>
+            </div>
+        </div>
 
-
+    <br>
 </div>
+
+<script src="JS/function.js"></script>
 
 </body>
 </html>

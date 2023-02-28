@@ -26,12 +26,12 @@ function copiar() {
     var textoacopiar = document.getElementById("telefono").innerText;
     navigator.clipboard.writeText(textoacopiar);
     var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copied!";
+    tooltip.innerHTML = "Copiado al portapapeles";
   }
 
 
   // Cada vez que dejemos de hacer hover en el tooltip, este cambiará su mensaje al indicado en la funcion
   function outFunc() {
     var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copiar!";
+    tooltip.innerHTML = "Copiar al portapapeles";
   }

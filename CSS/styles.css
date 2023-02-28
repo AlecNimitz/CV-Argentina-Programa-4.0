@@ -2,6 +2,7 @@
     box-sizing: border-box; /*Para utilizar el grid-view, el padding y border de los elementos tienen que estar incluidos dentro del mismo. */
     font-family: 'Kulim Park', sans-serif;
     text-align: left;
+    margin: 0%;
 }
 
 hr {
@@ -109,6 +110,7 @@ p {
     font-weight: 400;
     font-size: 19px;
     margin-bottom: 0px;
+    padding-top: 10px;
 }
 
 .universidad {
